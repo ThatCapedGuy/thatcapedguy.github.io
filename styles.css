@@ -1,0 +1,157 @@
+body {
+    background-color: #202124;
+    color: white;   
+}
+
+h1.heading {
+    margin: 20px;
+    padding: 30px;
+    color: #262626;
+    background-color: #79d2a6;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+p, li {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container {
+    border: 3px solid #8585ad;
+    border-radius: 2px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.panel {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    margin: 20px;
+}
+
+.color-swatch {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: white;
+    border: 1px solid #8585ad;
+    border-radius: 1px;
+}
+
+.color-swatch.background {
+    background-color: #202124;
+}
+
+.color-swatch.header {
+    background-color: #79d2a6;
+    color: #262626;
+}
+
+.color-swatch.border {
+    background-color: #8585ad;
+}
+
+.color-swatch.header-text {
+    background-color: #262626;
+}
+
+.color-swatch.link {
+    background-color: #ffa366;
+}
+
+.color-swatch.link-visited {
+    background-color: #cc5200;
+}
+
+.color-swatch.link-hover {
+    background-color: #feb82a;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.lato.name {
+    text-decoration: underline;
+}
+
+.lato.bold {
+    font-weight: 700;
+}
+
+.lato.italic {
+    font-style: italic;
+}
+
+.dm-sans {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+}
+
+.dm-sans.name {
+    text-decoration: underline;
+}
+
+.dm-sans.bold {
+    font-weight: 500;
+}
+
+.dm-sans.italic {
+    font-style: italic;
+}
+
+.libre {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+}
+
+.libre.name {
+    text-decoration: underline;
+}
+
+.libre.bold {
+    font-weight: 700;
+}
+
+.libre.italic {
+    font-style: italic;
+}
+
+.panel.links {
+    width: 100%;
+}
+
+.link-example {
+    color: #ffa366;
+    text-decoration: underline;
+    display: inline;
+    width: 30%;
+    margin: 15px;
+}
+
+.link-example:hover {
+    color: #feb82a;
+}
+
+.link-visited-example {
+    color: #cc5200;
+    text-decoration: underline;
+    display: inline;
+    width: 30%;
+    margin: 15px;
+}
